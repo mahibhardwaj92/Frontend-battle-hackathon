@@ -1,0 +1,415 @@
+<!----<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AetherEngine | Next-Gen AI Data Automation Platform</title>
+    
+    <meta name="description" content="Accelerate your enterprise data workflows with AetherEngine. Premium, high-converting AI-driven data automation platform with isolated state execution.">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AetherEngine | Next-Gen AI Data Automation Platform">
+    <meta property="og:description" content="Streamline complex data pipelines with premium localized AI automation engines.">
+    <meta property="og:image" content="https://aetherengine.vercel.app/og-image.jpg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="global-loader" aria-hidden="true">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="AetherEngine Home">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                <span>AetherEngine</span>
+            </a>
+            <nav class="nav-links" aria-label="Main Navigation">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testimonials">Social Proof</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <button class="btn btn-primary header-cta">Launch Console</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <span class="badge">v2.0 Speed Run Active</span>
+                <h1 class="hero-title">Next-Gen AI Platform for <span class="text-gradient">Data Automation</span></h1>
+                <p class="hero-subtitle">Architected for hyper-speed engineering operations, multi-regional pricing isolation, and instant responsive layouts.</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary">Start Free Trial</button>
+                    <button class="btn btn-secondary">Read Documentation</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Engineered for High-Velocity Teams</h2>
+                    <p>Context-aware bento systems shifting dynamically across viewports.</p>
+                </div>
+
+                <div id="bento-accordion-container" class="bento-grid">
+                    <div class="feature-card active" data-index="0" tabindex="0">
+                        <div class="feature-card-header">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                            <h3>Hyper-isolated Execution</h3>
+                        </div>
+                        <div class="feature-card-body">
+                            <p>Prevent system-wide pipeline re-renders. Localize execution to direct target metrics to avoid processing thrashing.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-index="1" tabindex="0">
+                        <div class="feature-card-header">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                            <h3>Bento Context Lock</h3>
+                        </div>
+                        <div class="feature-card-body">
+                            <p>State-persistent window tracking safeguards current user focus across volatile breakpoints natively.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-card" data-index="2" tabindex="0">
+                        <div class="feature-card-header">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <h3>SEO Structural Hygiene</h3>
+                        </div>
+                        <div class="feature-card-body">
+                            <p>Semantic structuring ensures crawlability parameters score maximum visibility without layout layout shifts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Isolated Multi-Currency Matrix</h2>
+                    <p>Zero global state reflows during billing iterations.</p>
+                </div>
+
+                <div class="pricing-controls">
+                    <div class="toggle-container">
+                        <span id="label-monthly">Monthly</span>
+                        <button id="billing-toggle" role="switch" aria-checked="false" aria-label="Toggle between monthly and annual billing"></button>
+                        <span id="label-yearly">Annual <span class="discount-badge">-20%</span></span>
+                    </div>
+
+                    <div class="select-wrapper">
+                        <select id="currency-switcher" aria-label="Switch pricing currency">
+                            <option value="USD">USD ($)</option>
+                            <option value="INR">INR (₹)</option>
+                            <option value="EUR">EUR (€)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="pricing-grid">
+                    <div class="price-card" data-tier="base">
+                        <h3>Core Engine</h3>
+                        <div class="price-display"><span class="currency-symbol">$</span><span class="price-val" id="price-base">29</span><span class="period">/mo</span></div>
+                        <p class="price-desc">Perfect for single architectural pipelines.</p>
+                        <ul class="price-features">
+                            <li>10 Isolated Node Pipelines</li>
+                            <li>Standard Motion Profiles</li>
+                            <li>Basic SEO Meta Injection</li>
+                        </ul>
+                        <button class="btn btn-secondary w-full">Deploy Now</button>
+                    </div>
+
+                    <div class="price-card featured" data-tier="pro">
+                        <div class="popular-tag">Most Popular</div>
+                        <h3>Scale Engine</h3>
+                        <div class="price-display"><span class="currency-symbol">$</span><span class="price-val" id="price-pro">79</span><span class="period">/mo</span></div>
+                        <p class="price-desc">Optimized for production workloads.</p>
+                        <ul class="price-features">
+                            <li>Unlimited Isolated Pipelines</li>
+                            <li>Advanced WAAPI Choreography</li>
+                            <li>Full OpenGraph Metadata Engine</li>
+                        </ul>
+                        <button class="btn btn-primary w-full">Deploy Pro Engine</button>
+                    </div>
+
+                    <div class="price-card" data-tier="enterprise">
+                        <h3>Custom Cluster</h3>
+                        <div class="price-display"><span class="currency-symbol">$</span><span class="price-val" id="price-enterprise">199</span><span class="period">/mo</span></div>
+                        <p class="price-desc">Dedicated infrastructure clusters.</p>
+                        <ul class="price-features">
+                            <li>Multi-region Tenant Sharding</li>
+                            <li>Custom Hardware Acceleration</li>
+                            <li>24/7 Core Level Support</li>
+                        </ul>
+                        <button class="btn btn-secondary w-full">Contact Architecture</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Validated by Lead Architects</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <blockquote class="testimonial-card">
+                        <p>"The state isolation implementation is flawless. Modifying currency nodes zeroed out all unnecessary repaint operations."</p>
+                        <cite>— Principal Frontend Engineer, TechCorp</cite>
+                    </blockquote>
+                    <blockquote class="testimonial-card">
+                        <p>"Bento to Accordion viewport resizing transitions preserve our interaction stack state fully. Outstanding performance UX."</p>
+                        <cite>— Director of Infrastructure, SpeedRun Labs</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Technical Architecture FAQ</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>How is the zero-dependency state isolation achieved?</summary>
+                        <p>We bypass high-level template system loops by targeting structural pricing data strictly inside distinct text node assignments via specific ID descriptors.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>What is the context-lock framework threshold?</summary>
+                        <p>The layout structural tracking hooks run natively alongside hardware configuration changes to guarantee responsive alignment accurately under 1ms.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 AetherEngine Inc. Protected under architectural performance rules.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Security Audit</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>--->
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AetherEngine | Next-Gen AI Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="global-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo">AetherEngine</a>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+            </nav>
+            <button class="btn btn-primary header-cta">Get Started</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <span class="badge">NEXT-GEN TECHNOLOGY</span>
+            <h1 class="hero-title">Welcome to <span class="text-gradient">AetherEngine</span></h1>
+            <p class="hero-subtitle">Building advanced layout structure with highly responsive parameters.</p>
+            <div class="hero-actions">
+                <button class="btn btn-primary">Try Now</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('global-loader');
+            if(loader) {
+                setTimeout(() => {
+                    loader.style.opacity = '0';
+                    setTimeout(() => loader.style.display = 'none', 350);
+                }, 400); // 400ms baad loader chala jayega
+            }
+        });
+    </script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AetherEngine | Next-Gen AI Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="global-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo">AetherEngine</a>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faqs">FAQs</a>
+            </nav>
+            <button class="btn btn-primary header-cta">Get Started</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <span class="badge">NEXT-GEN TECHNOLOGY</span>
+            <h1 class="hero-title">Welcome to <span class="text-gradient">AetherEngine</span></h1>
+            <p class="hero-subtitle">Building advanced layout structure with highly responsive parameters.</p>
+            <div class="hero-actions">
+                <button class="btn btn-primary">Try Now</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </section>
+
+        <section id="features" style="padding: 60px 0;">
+            <div class="section-header">
+                <h2>Our Features</h2>
+                <p>Explore the powerful tools we offer</p>
+            </div>
+            <div class="bento-grid" id="bento-accordion-container">
+                <div class="feature-card active">
+                    <div class="feature-card-header">
+                        <h3>⚡ Fast Performance</h3>
+                    </div>
+                    <div class="feature-card-body">
+                        <p style="color: var(--text-secondary);">Optimized loading sequences under 500ms for seamless user interactions.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-header">
+                        <h3>🔒 Secure Systems</h3>
+                    </div>
+                    <div class="feature-card-body">
+                        <p style="color: var(--text-secondary);">Multi-dimensional structure ensuring top-tier validation and encryption standards.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-header">
+                        <h3>📱 Fluid Fluidity</h3>
+                    </div>
+                    <div class="feature-card-body">
+                        <p style="color: var(--text-secondary);">Dynamic viewport reflow transitioning instantly between desktop and mobile devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" style="padding: 60px 0;">
+            <div class="section-header">
+                <h2>Predictable Pricing</h2>
+                <p>Choose the plan that fits your scalable needs</p>
+            </div>
+
+            <div class="pricing-controls">
+                <div class="toggle-container">
+                    <span>Monthly</span>
+                    <button id="billing-toggle" aria-checked="false"></button>
+                    <span>Yearly</span>
+                    <span class="discount-badge">Save 20%</span>
+                </div>
+                <select id="currency-switcher">
+                    <option value="USD">USD ($)</option>
+                    <option value="INR">INR (₹)</option>
+                    <option value="EUR">EUR (€)</option>
+                </select>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Base</h3>
+                    <div class="price-display"><span class="currency-symbol">$</span><span id="price-base">29</span><span class="period">/mo</span></div>
+                    <p class="price-desc">Essential tools for individuals and small projects.</p>
+                    <ul class="price-features">
+                        <li>Core Matrix Operations</li>
+                        <li>Standard Performance Cap</li>
+                    </ul>
+                    <button class="btn btn-secondary w-full" style="margin-top:auto;">Get Base</button>
+                </div>
+                <div class="price-card featured">
+                    <span class="popular-tag">POPULAR</span>
+                    <h3>Pro</h3>
+                    <div class="price-display"><span class="currency-symbol">$</span><span id="price-pro">79</span><span class="period">/mo</span></div>
+                    <p class="price-desc">Advanced systems for developers and fast-growing teams.</p>
+                    <ul class="price-features">
+                        <li>Ultra-Low Latency Flows</li>
+                        <li>Priority Component Access</li>
+                    </ul>
+                    <button class="btn btn-primary w-full" style="margin-top:auto;">Get Pro</button>
+                </div>
+                <div class="price-card">
+                    <h3>Enterprise</h3>
+                    <div class="price-display"><span class="currency-symbol">$</span><span id="price-enterprise">199</span><span class="period">/mo</span></div>
+                    <p class="price-desc">Full orchestral automation for large organizations.</p>
+                    <ul class="price-features">
+                        <li>Custom Context Tuning</li>
+                        <li>24/7 Node Support Dedicated</li>
+                    </ul>
+                    <button class="btn btn-secondary w-full" style="margin-top:auto;">Contact Sales</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="faqs" class="faq-section">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>How does the currency matrix sync?</summary>
+                    <p>Prices scale dynamically across USD, INR, and EUR with isolated DOM mutations to save layout performance.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Can I cancel my subscription anytime?</summary>
+                    <p>Yes, changing or halting your dynamic tier takes effect immediately at the end of the billing cycle.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 AetherEngine. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
